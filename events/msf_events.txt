@@ -1,0 +1,19 @@
+namespace = Blitzcat Technologies
+
+country_event = {
+	id = fortress_speed_tech.1
+	title = "mfs_tech1"
+	desc = "mfs_tech1_desc"
+	picture = "GFX_event_space_station.dds"
+	show_sound = event_structural_collapse
+	is_triggered_only = yes
+
+	option = {
+		name = fortress_speed_tech.2
+		give_technology = { tech = tech_fortress_speed_1 }
+	}
+
+	option = {
+		name =  fortress_speed_tech.3
+	}
+}

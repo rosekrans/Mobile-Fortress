@@ -1,0 +1,12 @@
+on_press_begin = {
+	events = {
+		fortress_speed_tech.1
+	}
+}
+
+on_game_start_country = {
+	events = {
+		fortress_speed_tech.2
+		fortress_speed_tech.3
+	}
+}

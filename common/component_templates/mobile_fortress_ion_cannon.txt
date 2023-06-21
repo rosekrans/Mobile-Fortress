@@ -1,0 +1,42 @@
+weapon_component_template = {
+	key = "FORTRESS_BEAM_ION"
+	size = titanic
+	entity = "invisible_turret_entity"
+	type = instant
+	prio_projectile = yes
+
+	damage = { min = 5000.0 max = 10000.0 }
+	windup = { min = 5.0 max = 10.0 }
+	total_fire_time = 80
+	range = 250.0
+	accuracy = 0.90
+	tracking = 0.10
+	hull_damage = 1.25
+	shield_damage = 0.75
+	armor_damage = 1.5
+	color = { 0.1 1.0 0.1 1 }
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @titanic_t6_cost
+			rare_crystals = @titanic_t6_rare
+		}
+		upkeep = {
+			energy = @titanic_t6_upkeep_energy
+			alloys = @titanic_t6_upkeep_alloys
+		}
+	}
+
+	icon = "GFX_ship_part_perdition_beam"
+	icon_frame = 1
+
+	firing_arc = 10.0
+	min_range = 30.0
+	static_rotation = yes
+	use_ship_kill_target = no
+
+	prerequisites = { "tech_titans" }
+	component_set = "PERDITION_BEAM"
+	projectile_gfx = "ion_cannon"
+	size_restriction = { mobile_fortress mobile_fortress_2 }
+}

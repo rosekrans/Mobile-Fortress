@@ -1,0 +1,118 @@
+tech_mobile_fortress = {
+	cost = @tier5cost1
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	prerequisites = { "tech_battleships" }
+	weight = @tier5weight1
+	ai_update_type = military
+
+	modifier = {
+		country_command_limit_add = 10
+	}
+
+	## unlock titans
+	prereqfor_desc = {
+		hide_prereq_for_desc = component
+		ship = {
+			title = "TECH_UNLOCK_MOBILE_FORTRESS_CONSTRUCTION_TITLE"
+			desc = "TECH_UNLOCK_MOBILE_FORTRESS_CONSTRUCTION_DESC"
+		}
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.1
+			NOT = { years_passed > 100 }
+		}
+		modifier = {
+			factor = 10
+			any_neighbor_country = {
+				has_technology = tech_mobile_fortress
+			}
+		}
+		modifier = {
+			factor = 2
+			years_passed > 130
+		}
+		modifier = {
+			factor = 3
+			years_passed > 140
+		}
+		modifier = {
+			factor = 4
+			years_passed > 150
+		}
+		modifier = {
+			factor = 1.25
+			has_tradition = tr_supremacy_adopt
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+
+	ai_weight = {
+		factor = 100 #higher factor due to titan hull
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}
+
+tech_fortress_speed = {
+	cost = @tier5cost2
+	area = engineering
+	tier = 5
+
+	category = { propulsion }
+	ai_update_type = all
+	weight = @tier5weight2
+	is_rare = yes
+	prerequisites = { "tech_mobile_fortress"}
+
+	weight_modifier = {
+		factor = 1.25
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_propulsion"
+			}
+		}
+		modifier = {
+			factor = 2
+			has_technology = tech_thrusters_2
+		}
+		modifier = {
+			factor = 2
+			has_technology = tech_thrusters_3
+		}
+	}
+
+	prereqfor_desc = {
+		component = {
+			title = "TECH_UNLOCK_ADDITIONAL_AFTERBURNER_TITLE"
+			desc = "TECH_UNLOCK_ADDITIONAL_AFTERBURNER_DESC"
+		}
+	}
+
+	ai_weight = {
+		factor = 2 #important component
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_propulsion"
+			}
+		}
+	}
+}

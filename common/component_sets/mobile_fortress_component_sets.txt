@@ -1,0 +1,352 @@
+component_set = {
+	key = "FORTRESS_CORVETTE"
+
+	icon = "GFX_ship_part_strike_craft_corvette"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "FORTRESS_DESTROYER"
+
+	icon = "GFX_ship_part_strike_craft_destroyer"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "FORTRESS_CRUISER"
+
+	icon = "GFX_ship_part_strike_craft_cruiser"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "FORTRESS_BATTLESHIP"
+
+	icon = "GFX_ship_part_strike_craft_battleship"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "FORT_COMBAT_COMPUTER_LINE_BASIC"
+
+	icon = "GFX_ship_part_computer_line_basic"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "FORT_COMBAT_COMPUTER_LINE_ADVANCED"
+
+	icon = "GFX_ship_part_computer_line_advanced"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "FORT_COMBAT_COMPUTER_LINE_SAPIENT"
+
+	icon = "GFX_ship_part_computer_line_sapient"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "FORT_COMBAT_COMPUTER_LINE_AUTONOMOUS"
+
+	icon = "GFX_ship_part_computer_line_sapient"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "FORT_COMBAT_COMPUTER_LINE_PRECOG"
+
+	icon = "GFX_ship_part_computer_line_precog"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "FORT_COMBAT_COMPUTER_ARTILLERY_BASIC"
+
+	icon = "GFX_ship_part_computer_line_basic"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "FORT_COMBAT_COMPUTER_ARTILLERY_ADVANCED"
+
+	icon = "GFX_ship_part_computer_line_advanced"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "FORT_COMBAT_COMPUTER_ARTILLERY_SAPIENT"
+
+	icon = "GFX_ship_part_computer_line_sapient"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "FORT_COMBAT_COMPUTER_ARTILLERY_AUTONOMOUS"
+
+	icon = "GFX_ship_part_computer_line_sapient"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "FORT_COMBAT_COMPUTER_ARTILLERY_PRECOG"
+
+	icon = "GFX_ship_part_computer_line_precog"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "FORT_SHIP_THRUSTER_1"
+
+	icon = "GFX_ship_part_thruster_1"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "FORT_SHIP_THRUSTER_2"
+
+	icon = "GFX_ship_part_thruster_2"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "FORT_SHIP_THRUSTER_3"
+
+	icon = "GFX_ship_part_thruster_3"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "FORT_SHIP_THRUSTER_4"
+
+	icon = "GFX_ship_part_thruster_4"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "FORT_SHIP_THRUSTER_5"
+
+	icon = "GFX_ship_part_thruster_5"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "FORT_FISSION_REACTOR"
+
+	icon = "GFX_ship_part_reactor_1"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "FORT_FUSION_REACTOR"
+
+	icon = "GFX_ship_part_reactor_2"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "FORT_COLD_FUSION_REACTOR"
+
+	icon = "GFX_ship_part_reactor_3"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "FORT_ANTIMATTER_REACTOR"
+
+	icon = "GFX_ship_part_reactor_4"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "FORT_ZERO_POINT_REACTOR"
+
+	icon = "GFX_ship_part_reactor_5"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "FORT_ZERO_POINT_REACTOR_OVERLOADED"
+
+	icon = "GFX_ship_part_reactor_5_overloaded"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "FORT_DARK_MATTER_REACTOR"
+
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "SHIP_BLACKHOLE_FORCE_FIELD_GENERATOR"
+
+	icon = "GFX_ship_part_blackhole_force_field_generator"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "SHIP_FLEET_ANCHOR"
+
+	icon = "GFX_ship_part_fleet_anchor"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "CENTRALIZE_OPERATION_HQ"
+
+	icon = "GFX_ship_part_centralize_operation_HQ"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "MINERAL_PLANT_WITH_AA_GUN"
+
+	icon = "GFX_ship_part_aa_minerals"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "ENERGY_PLANT_WITH_AA_GUN"
+
+	icon = "GFX_ship_part_aa_energy"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "FOOD_PLANT_WITH_AA_GUN"
+
+	icon = "GFX_ship_part_aa_food"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ALLOYS_PLANT_WITH_MACHINE_CANNON"
+
+	icon = "GFX_ship_part_machine_alloys"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "CONSUMER_GOODS_PLANT_WITH_MACHINE_CANNON"
+
+	icon = "GFX_ship_part_machine_consumer_goods"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "PHSYICS_PLANT_WITH_MACHINE_CANNON"
+
+	icon = "GFX_ship_part_machine_physics"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "SOCIETY_PLANT_WITH_MACHINE_CANNON"
+
+	icon = "GFX_ship_part_machine_society"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ENGINEERING_PLANT_WITH_MACHINE_CANNON"
+
+	icon = "GFX_ship_part_machine_engineering"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "EXOTIC_GASES_PLANT_WITH_MACHINE_CANNON"
+
+	icon = "GFX_ship_part_machine_exotic_gases"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "RARE_CRYSTAL_PLANT_WITH_MACHINE_CANNON"
+
+	icon = "GFX_ship_part_machine_rare_crystal"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "VOLATILE_MOTES_PLANT_WITH_MACHINE_CANNON"
+
+	icon = "GFX_ship_part_machine_volatile_motes"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "LIVING_METAL_PLANT_WITH_AA_GUN"
+
+	icon = "GFX_ship_part_aa_living_metal"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "ZRO_PLANT_WITH_AA_GUN"
+
+	icon = "GFX_ship_part_aa_zro"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "DARK_MATTER_PLANT_WITH_AA_GUN"
+
+	icon = "GFX_ship_part_aa_dark_matter"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "NANITIES_PLANT_WITH_AA_GUN"
+
+	icon = "GFX_ship_part_aa_nanities"
+	icon_frame = 1
+}
+
+
+component_set = {
+	key = "UNITY_PLANT_WITH_AA_GUN"
+
+	icon = "GFX_ship_part_aa_unity"
+	icon_frame = 1
+}
+
+component_set = {
+	key = "INFLUENCE_PLANT_WITH_AA_GUN"
+
+	icon = "GFX_ship_part_aa_influence"
+	icon_frame = 1
+}

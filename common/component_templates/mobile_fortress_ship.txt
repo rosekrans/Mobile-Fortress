@@ -1,0 +1,201 @@
+strike_craft_component_template = {
+	key = "FORTRESS_CORVETTE"
+	size = LARGE
+	entity = "pirate_01_pirate_corvette_M1S1_entity"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 2056
+		}
+		upkeep = {
+			energy = 14.16
+			alloys = 2.8
+		}
+	}
+
+	count = 8
+	regeneration_per_day = 0.02
+	launch_time = 1,3
+
+	damage = { min = 10 max = 15 }
+	cooldown = 1.0
+	range = 60
+	accuracy = 0.80
+	tracking = 0.20
+
+	health = 300
+	armor = 150
+	shield = 300
+	evasion = 0.90
+
+	speed = 360
+	rotation_speed = 0.5
+	acceleration = 5
+
+	shield_penetration = -0.20
+	armor_damage = 0.80
+
+	ship_behavior = "swarm"
+
+	weapon_type = instant
+	projectile_gfx = "scout_laser_1"
+
+	icon = "GFX_ship_part_strike_craft_corvette"
+	icon_frame = 1
+	component_set = "FORTRESS_CORVETTE"
+	prerequisites = { "tech_corvettes" }
+	tags = { weapon_type_strike_craft }
+	size_restriction = { mobile_fortress mobile_fortress_2 military_station_small juggernaut }
+}
+
+strike_craft_component_template = {
+	key = "FORTRESS_DESTROYER"
+	size = LARGE
+	entity = "pirates_destroyer01_1m_2s_1m_entity"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 1652
+		}
+		upkeep = {
+			energy = 12.56
+			alloys = 2.36
+		}
+	}
+
+	count = 4
+	regeneration_per_day = 0.01
+	launch_time = 1,3
+
+	damage = { min = 20 max = 30 }
+	cooldown = 2.0
+	range = 80
+	accuracy = 0.8
+	tracking = 0.4
+
+	health = 800
+	armor = 400
+	shield = 400
+	evasion = 0.60
+
+	speed = 280
+	rotation_speed = 0.5
+	acceleration = 5
+
+	shield_penetration = -0.20
+	armor_damage = 0.80
+
+	ship_behavior = "picket"
+
+	weapon_type = instant
+	projectile_gfx = "scout_laser_1"
+
+	icon = "GFX_ship_part_strike_craft_destroyer"
+	icon_frame = 1
+	component_set = "FORTRESS_DESTROYER"
+	prerequisites = { "tech_destroyers" }
+	tags = { weapon_type_strike_craft }
+	size_restriction = { mobile_fortress mobile_fortress_2 military_station_small juggernaut }
+}
+
+
+strike_craft_component_template = {
+	key = "FORTRESS_CRUISER"
+	size = LARGE
+	entity = "pirate_01_cruiser_hull_entity"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 1880
+		}
+		upkeep = {
+			energy = 15.64
+			alloys = 3.14
+		}
+	}
+
+	count = 2
+	regeneration_per_day = 0.004
+	launch_time = 1,3
+
+	damage = { min = 180 max = 220 }
+	cooldown = 2.0
+	range = 100
+	accuracy = 0.8
+	tracking = 0.2
+
+	health = 1800
+	armor = 1400
+	shield = 1400
+	evasion = 0.25
+
+	speed = 240
+	rotation_speed = 0.5
+	acceleration = 5
+
+	shield_penetration = -0.20
+	armor_damage = 0.80
+
+	ship_behavior = "line"
+
+	weapon_type = instant
+	projectile_gfx = "scout_laser_1"
+
+	icon = "GFX_ship_part_strike_craft_cruiser"
+	icon_frame = 1
+	component_set = "FORTRESS_CRUISER"
+	prerequisites = { "tech_cruisers" }
+	tags = { weapon_type_strike_craft }
+	size_restriction = { mobile_fortress mobile_fortress_2 military_station_small juggernaut }
+}
+
+
+strike_craft_component_template = {
+	key = "FORTRESS_BATTLESHIP"
+	size = LARGE
+	entity = "fallen_empire_01_warship_large_entity"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 1820
+		}
+		upkeep = {
+			energy = 15
+			alloys = 3.19
+		}
+	}
+
+	count = 1
+	regeneration_per_day = 0.0025
+	launch_time = 1,3
+
+	damage = { min = 400 max = 500 }
+	cooldown = 1.5
+	range = 120
+	accuracy = 0.8
+	tracking = 0.05
+
+	health = 3000
+	armor = 2600
+	shield = 2600
+	evasion = 0.10
+
+	speed = 200
+	rotation_speed = 0.5
+	acceleration = 5
+
+	shield_penetration = -0.20
+	armor_damage = 0.80
+
+	ship_behavior = "artillery"
+
+	weapon_type = instant
+	projectile_gfx = "scout_laser_1"
+
+	icon = "GFX_ship_part_strike_craft_battleship"
+	icon_frame = 1
+	component_set = "FORTRESS_BATTLESHIP"
+	prerequisites = { "tech_battleships" }
+	tags = { weapon_type_strike_craft }
+	size_restriction = { mobile_fortress mobile_fortress_2 military_station_small juggernaut }
+}

@@ -1,0 +1,291 @@
+#############
+#	POWER	#
+#############
+
+@corvette_power_1 = 75
+@corvette_power_2 = 100
+@corvette_power_3 = 130
+@corvette_power_4 = 170
+@corvette_power_5 = 220
+@corvette_power_6 = 285
+
+@destroyer_power_1 = 140
+@destroyer_power_2 = 180
+@destroyer_power_3 = 240
+@destroyer_power_4 = 320
+@destroyer_power_5 = 430
+@destroyer_power_6 = 550
+
+@cruiser_power_1 = 280
+@cruiser_power_2 = 360
+@cruiser_power_3 = 480
+@cruiser_power_4 = 620
+@cruiser_power_5 = 800
+@cruiser_power_6 = 1030
+
+@battleship_power_1 = 550
+@battleship_power_2 = 720
+@battleship_power_3 = 950
+@battleship_power_4 = 1250
+@battleship_power_5 = 1550
+@battleship_power_6 = 2000
+
+@titan_power_1 = 1100
+@titan_power_2 = 1450
+@titan_power_3 = 1900
+@titan_power_4 = 2500
+@titan_power_5 = 3200
+@titan_power_6 = 4200
+
+@colossus_power = 10000
+
+@starbase_power = 10000
+
+@platform_power_1 = 200
+@platform_power_2 = 260
+@platform_power_3 = 340
+@platform_power_4 = 440
+@platform_power_5 = 575
+@platform_power_6 = 750
+
+#############
+#	COST	#
+#############
+
+
+@corvette_cost_1 = 10
+@corvette_cost_2 = 13
+@corvette_cost_3 = 17
+@corvette_cost_4 = 22
+@corvette_cost_5 = 28
+@corvette_cost_6 = 37
+
+@destroyer_cost_1 = 20
+@destroyer_cost_2 = 26
+@destroyer_cost_3 = 34
+@destroyer_cost_4 = 44
+@destroyer_cost_5 = 56
+@destroyer_cost_6 = 74
+
+@cruiser_cost_1 = 40
+@cruiser_cost_2 = 52
+@cruiser_cost_3 = 68
+@cruiser_cost_4 = 88
+@cruiser_cost_5 = 112
+@cruiser_cost_6 = 148
+
+@battleship_cost_1 = 80
+@battleship_cost_2 = 104
+@battleship_cost_3 = 136
+@battleship_cost_4 = 176
+@battleship_cost_5 = 224
+@battleship_cost_6 = 296
+
+@titan_cost_1 = 160
+@titan_cost_2 = 208
+@titan_cost_3 = 272
+@titan_cost_4 = 352
+@titan_cost_5 = 448
+@titan_cost_6 = 592
+
+@colossus_cost_1 = 0
+
+@platform_cost_1 = 20
+@platform_cost_2 = 26
+@platform_cost_3 = 34
+@platform_cost_4 = 44
+@platform_cost_5 = 56
+@platform_cost_6 = 74
+
+#############
+#  REACTORS #
+#############
+
+utility_component_template = {
+	key = "FORT_FISSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_1"
+	icon_frame = 1
+	power = 5000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @titan_cost_1
+		}
+		upkeep = {
+			energy = 1.60
+			alloys = 0.16
+		}
+	}
+
+	prerequisites = { "tech_fission_power" }
+	component_set = "power_core"
+	size_restriction = { mobile_fortress mobile_fortress_2 movable_industry_complex_facility }
+	upgrades_to = "FORT_FUSION_REACTOR"
+	ai_weight = {
+		weight = 1
+	}
+}
+
+
+utility_component_template = {
+	key = "FORT_FUSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_2"
+	icon_frame = 1
+	power = 6000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @titan_cost_2
+		}
+		upkeep = {
+			energy = 2.08
+			alloys = 0.208
+		}
+	}
+
+	prerequisites = { "tech_fusion_power" }
+	component_set = "power_core"
+	size_restriction = { mobile_fortress mobile_fortress_2 movable_industry_complex_facility }
+	upgrades_to = "FORT_COLD_FUSION_REACTOR"
+	ai_weight = {
+		weight = 2
+	}
+}
+
+utility_component_template = {
+	key = "FORT_COLD_FUSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_3"
+	icon_frame = 1
+	power = 8000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @titan_cost_3
+		}
+		upkeep = {
+			energy = 2.70
+			alloys = 0.270
+		}
+	}
+
+	prerequisites = { "tech_cold_fusion_power" }
+	component_set = "power_core"
+	size_restriction = { mobile_fortress mobile_fortress_2 movable_industry_complex_facility }
+	upgrades_to = "FORT_ANTIMATTER_REACTOR"
+	ai_weight = {
+		weight = 3
+	}
+}
+
+
+utility_component_template = {
+	key = "FORT_ANTIMATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_4"
+	icon_frame = 1
+	power = 8000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @titan_cost_4
+		}
+		upkeep = {
+			energy = 3.51
+			alloys = 0.351
+		}
+	}
+
+	prerequisites = { "tech_antimatter_power" }
+	component_set = "power_core"
+	size_restriction = { mobile_fortress mobile_fortress_2 movable_industry_complex_facility }
+	upgrades_to = "FORT_ZERO_POINT_REACTOR"
+	ai_weight = {
+		weight = 4
+	}
+}
+
+utility_component_template = {
+	key = "FORT_ZERO_POINT_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_5"
+	icon_frame = 1
+	power = 9000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @titan_cost_5
+		}
+		upkeep = {
+			energy = 4.56
+			alloys = 0.456
+		}
+	}
+
+	prerequisites = { "tech_zero_point_power" }
+	component_set = "power_core"
+	size_restriction = { mobile_fortress mobile_fortress_2 movable_industry_complex_facility }
+	upgrades_to = "FORT_DARK_MATTER_REACTOR"
+	ai_weight = {
+		weight = 5
+	}
+}
+
+
+utility_component_template = {
+	key = "FORT_ZERO_POINT_REACTOR_OVERLOADED"
+	size = small
+	icon = "GFX_ship_part_reactor_5_overloaded"
+	icon_frame = 1
+	power = 16000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @titan_cost_5
+		}
+		upkeep = {
+			energy = 6.88
+			alloys = 0.75
+		}
+	}
+	modifier = {
+		ship_disengage_chance_mult = -0.20
+		ship_evasion_mult = -0.10
+	}
+
+	prerequisites = { "tech_zero_point_power" }
+	component_set = "power_core"
+	size_restriction = { mobile_fortress mobile_fortress_2 movable_industry_complex_facility }
+	upgrades_to = "FORT_DARK_MATTER_REACTOR"
+	ai_weight = {
+		weight = 5
+	}
+}
+
+utility_component_template = {
+	key = "FORT_DARK_MATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+	power = 12000
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @titan_cost_6
+			sr_dark_matter = 16
+		}
+		upkeep = {
+			energy = 5.93
+			alloys = 0.593
+		}
+	}
+
+	prerequisites = { "tech_dark_matter_power_core" }
+	component_set = "power_core"
+	size_restriction = { mobile_fortress mobile_fortress_2 movable_industry_complex_facility }
+	ai_weight = {
+		weight = 6
+	}
+}

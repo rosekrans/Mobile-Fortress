@@ -1,0 +1,129 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_ship_part_fleet_anchor"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_fleet_anchor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_part_centralize_operation_HQ"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_centralize_operation_HQ.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_part_blackhole_force_field_generator"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_blackhole_force_field_generator.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_part_reactor_5_overloaded"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_reactor_5_overloaded.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_part_strike_craft_corvette"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_strike_craft_corvette.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_part_strike_craft_destroyer"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_strike_craft_destroyer.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_part_strike_craft_cruiser"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_strike_craft_cruiser.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_part_strike_craft_battleship"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_strike_craft_battleship.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ship_part_thruster_sub"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_thruster_sub.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_aa_minerals"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_aa_minerals.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ship_part_aa_food"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_aa_food.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_aa_minerals"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_aa_minerals.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_machine_alloys"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_machine_alloys.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_machine_consumer_goods"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_machine_consumer_goods"
+	}
+	spriteType = {
+		name = "GFX_ship_part_machine_physics"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_machine_physics.dds"
+	}
+	spriteType = {
+		name = "GFX_hip_part_machine_society"
+		texturefile = "gfx/interface/icons/ship_parts/hip_part_machine_society.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_machine_engineering"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_machine_engineering.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_machine_exotic_gases"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_machine_exotic_gases.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_machine_rare_crystal"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_machine_rare_crystal.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_machine_volatile_motes"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_machine_volatile_motes.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_aa_living_metal"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_aa_living_metal.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_aa_minerals"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_aa_minerals.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_aa_minerals"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_aa_minerals.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_aa_minerals"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_aa_minerals.dds"
+	}	
+	spriteType = {
+		name = "GFX_ship_part_aa_minerals"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_aa_minerals.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_aa_minerals"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_aa_minerals.dds"
+	}	
+	spriteType = {
+		name = "GFX_ship_part_aa_minerals"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_aa_minerals.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_aa_minerals"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_aa_minerals.dds"
+	}
+	spriteType = {
+		name = "GFX_ship_part_aa_minerals"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_aa_minerals.dds"
+	}
+}

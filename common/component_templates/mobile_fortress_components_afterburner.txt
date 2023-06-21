@@ -1,0 +1,30 @@
+utility_component_template = {
+	key = "ADDITIONAL_AFTERBURNER"
+	size = small
+	icon = "GFX_ship_part_thruster_sub"
+	icon_frame = 1
+	power = -60
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = 10
+		}
+	}
+
+
+	prerequisites = { "tech_fortress_speed" }
+	component_set = "thruster_components"
+	size_restriction = { mobile_fortress mobile_fortress_2 movable_industry_complex_facility }
+	modifier = { ship_speed_mult = 2.50 }
+	ai_weight = {
+		weight = 10
+		modifier = {
+			factor = 2.0
+			is_preferred_weapons = weapon_type_kinetic
+		}
+		modifier = {
+			factor = 0.5
+			is_preferred_weapons = weapon_type_explosive
+		}
+	}
+}
