@@ -6,5 +6,5 @@ tags={
 }
 name="Mobile Fortress"
 picture="thumbnail.png"
-supported_version="3.6.*"
+supported_version="3.8.*"
 remote_file_id="2852400563"
